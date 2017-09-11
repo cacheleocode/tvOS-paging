@@ -13,6 +13,8 @@
 		8D3F44861F63478F0050BEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F44851F63478F0050BEAD /* Assets.xcassets */; };
 		8D3F44911F63478F0050BEAD /* Channel_Change_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F44901F63478F0050BEAD /* Channel_Change_CTests.swift */; };
 		8D3F449C1F6347900050BEAD /* Channel_Change_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F449B1F6347900050BEAD /* Channel_Change_CUITests.swift */; };
+		8D3F44AA1F66FC670050BEAD /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F44A91F66FC670050BEAD /* TutorialViewController.swift */; };
+		8D3F44AC1F66FC6F0050BEAD /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F44AB1F66FC6F0050BEAD /* TutorialPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		8D3F44971F63478F0050BEAD /* Channel Change CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Channel Change CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3F449B1F6347900050BEAD /* Channel_Change_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel_Change_CUITests.swift; sourceTree = "<group>"; };
 		8D3F449D1F6347900050BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3F44A91F66FC670050BEAD /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		8D3F44AB1F66FC6F0050BEAD /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		8D3F447D1F63478F0050BEAD /* Channel Change C */ = {
 			isa = PBXGroup;
 			children = (
+				8D3F44AB1F66FC6F0050BEAD /* TutorialPageViewController.swift */,
+				8D3F44A91F66FC670050BEAD /* TutorialViewController.swift */,
 				8D3F447E1F63478F0050BEAD /* AppDelegate.swift */,
 				8D3F44801F63478F0050BEAD /* ViewController.swift */,
 				8D3F44821F63478F0050BEAD /* Main.storyboard */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3F44811F63478F0050BEAD /* ViewController.swift in Sources */,
+				8D3F44AA1F66FC670050BEAD /* TutorialViewController.swift in Sources */,
+				8D3F44AC1F66FC6F0050BEAD /* TutorialPageViewController.swift in Sources */,
 				8D3F447F1F63478F0050BEAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
